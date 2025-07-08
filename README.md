@@ -6,7 +6,7 @@ A comprehensive starter template for Rust projects optimized for development wit
 
 1. **Clone this template**
    ```bash
-   git clone https://github.com/yourusername/rust-claude-code.git my-rust-project
+   git clone https://github.com/iepathos/rust-claude-code.git my-rust-project
    cd my-rust-project
    ```
 
