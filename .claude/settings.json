@@ -65,7 +65,8 @@
         "Bash(touch:*)",
         "Bash(time:*)",
         "Bash(jq:*)",
-        "Bash(cargo deny check:*)"
+        "Bash(cargo deny check:*)",
+        "WebFetch(domain:rust-lang.github.io)"
       ],
       "deny": []
     },
