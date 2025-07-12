@@ -1,0 +1,16 @@
+#!/bin/sh
+# Pre-commit hook to run just fmt
+
+# Run just fmt
+echo "Running just fmt..."
+just fmt
+
+# Check if just fmt made any changes
+if ! git diff --quiet; then
+    echo "❌ Formatting changes were made. Please review and stage the changes."
+    echo "   Run 'git add -u' to stage the formatting changes."
+    exit 1
+fi
+
+echo "✅ Code formatting check passed!"
+exit 0
