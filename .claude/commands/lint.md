@@ -12,7 +12,7 @@ SCOPE: $ARGUMENTS (optional - specify scope like "src/parser", "tests", or omit 
 
 1. **Current Status Check**
    - Run `cargo check` to identify compilation errors
-   - Execute `cargo clippy -- -D warnings` to get current lint status
+   - Execute `cargo clippy --all-targets --all-features -- -D warnings` to get current lint status
    - Run `cargo fmt --check` to see formatting issues
    - Generate baseline report of current issues
 
